@@ -1,13 +1,15 @@
 # WeatherDashboard
 
-A dashboard application to display weather data.
+A dashboard application to display weather data using Python, Tkinter, and OpenWeatherMap.
 
 ## Project Structure
 
 - `main.py`: Main application entry point
-- `config.py`: Configuration settings
-- `data/`: Data storage and processing
-- `docs/`: Documentation
+- `config.py`: Configuration settings (including API key)
+- `data/`: Weather log storage
+- `docs/`: Project documentation
+- `features/`: Extra features like statistics and graphing
 - `tests/`: Unit and integration tests
-- `assets/`: Static assets (images, icons, etc.)
-- `requirements.txt`: Python dependencies 
+- `assets/`: Static assets (icons, screenshots, etc.)
+- `requirements.txt`: Python dependencies
+
