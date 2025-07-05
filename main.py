@@ -2,6 +2,7 @@ import tkinter as tk
 import requests
 from config import API_KEY, DEFAULT_CITY
 from features.simple_stats import save_weather_data, load_last_7_days, calculate_stats
+from features.temp_graph import show_temperature_graph
 
 # Create the main window
 root = tk.Tk()
@@ -49,6 +50,10 @@ def fetch_weather():
 button = tk.Button(root, text="Get Weather", command=fetch_weather)
 button.pack()
 
+graph_button = tk.Button(root, text="Show Temp Graph", command=show_temperature_graph)
+graph_button.pack()
+
 print("Launching GUI...")
 print("Root is:", root)
 root.mainloop()
+
